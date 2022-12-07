@@ -1,4 +1,4 @@
-### Using persistant mode 
+### Using persistence mode 
 
 The GPU state remains loaded in the driver whenever one or more clients have the device file open. Once all clients have closed the device file, the GPU state will be unloaded unless persistence mode is enabled.
 
