@@ -23,6 +23,7 @@
 * If no matlab file exists in this directory (almost most of the time it will exisit but if you didn't chcek on create symlink during installation you can execute this <br />``` $ sudo ln -s $MATLAB/bin/matlab matlab ```
 * libcrypt.so.1 error :
 ```error while loading shared libraries: libcrypt.so.1: cannot open shared object file: No such file or directory```
+    
     Do this :
         ```sudo pamac -S libxcrypt-compat``` 
                 or
