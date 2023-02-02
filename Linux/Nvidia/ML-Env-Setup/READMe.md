@@ -78,17 +78,7 @@ tar -xvf lib.tgz
 ```
 
 ## 9. Install Tensorrt
-Download Tensorrt from [here](https://developer.nvidia.com/nvidia-tensorrt-download) .
-Do
+Just pip it
 ```
-tar -xvf TensorRT
-```
-and copy the files to /usr/local/
-```
-sudo cp -r TensorRT /usr/local/
-```
-Create symbolic links
-```
-sudo ln -s /usr/local/TensorRT tensorrt
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/tensorrt/lib/
+pip install tensorrt
 ```
